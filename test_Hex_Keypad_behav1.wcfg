@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_Hex_Keypad_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_Hex_Keypad" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="307401fs"></ZoomEndTime>
+      <Cursor1Time time="65000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/test_Hex_Keypad/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Code" type="array">
+      <obj_property name="ElementShortName">Code[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Code[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Valid" type="logic">
+      <obj_property name="ElementShortName">Valid</obj_property>
+      <obj_property name="ObjectShortName">Valid</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Col" type="array">
+      <obj_property name="ElementShortName">Col[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Col[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Row" type="array">
+      <obj_property name="ElementShortName">Row[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Row[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key" type="array">
+      <obj_property name="ElementShortName">Key[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Key[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Pressed" type="array">
+      <obj_property name="ElementShortName">Pressed[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Pressed[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/S_Row" type="logic">
+      <obj_property name="ElementShortName">S_Row</obj_property>
+      <obj_property name="ObjectShortName">S_Row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/M3/A_Row" type="logic">
+      <obj_property name="ElementShortName">A_Row</obj_property>
+      <obj_property name="ObjectShortName">A_Row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/M1/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_0" type="array">
+      <obj_property name="ElementShortName">Key_0[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_0[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_1" type="array">
+      <obj_property name="ElementShortName">Key_1[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_1[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_2" type="array">
+      <obj_property name="ElementShortName">Key_2[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_2[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_3" type="array">
+      <obj_property name="ElementShortName">Key_3[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_3[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_4" type="array">
+      <obj_property name="ElementShortName">Key_4[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_4[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_5" type="array">
+      <obj_property name="ElementShortName">Key_5[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_5[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_6" type="array">
+      <obj_property name="ElementShortName">Key_6[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_6[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_7" type="array">
+      <obj_property name="ElementShortName">Key_7[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_7[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_8" type="array">
+      <obj_property name="ElementShortName">Key_8[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_8[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_9" type="array">
+      <obj_property name="ElementShortName">Key_9[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_9[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_A" type="array">
+      <obj_property name="ElementShortName">Key_A[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_A[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_B" type="array">
+      <obj_property name="ElementShortName">Key_B[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_B[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_C" type="array">
+      <obj_property name="ElementShortName">Key_C[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_C[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_D" type="array">
+      <obj_property name="ElementShortName">Key_D[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_D[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_E" type="array">
+      <obj_property name="ElementShortName">Key_E[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_E[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/Key_F" type="array">
+      <obj_property name="ElementShortName">Key_F[39:0]</obj_property>
+      <obj_property name="ObjectShortName">Key_F[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Hex_Keypad/None" type="array">
+      <obj_property name="ElementShortName">None[31:0]</obj_property>
+      <obj_property name="ObjectShortName">None[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+</wave_config>
